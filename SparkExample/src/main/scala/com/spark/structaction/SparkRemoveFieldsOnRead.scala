@@ -1,7 +1,7 @@
 package com.spark.structaction
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{SaveMode, SparkSession}
 import org.apache.spark.sql.types._
 
 object SparkRemoveFieldsOnRead extends App {
